@@ -21,6 +21,5 @@ iterator = WordLengthIterator(words)
 for word, length in iterator:
     print(f"{word}: {length}")
 
-# Повторный обход работает, потому что __iter__ сбрасывает self.i
 for word, length in iterator:
     print(f"{word}: {length}")
