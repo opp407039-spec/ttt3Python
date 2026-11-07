@@ -1,0 +1,9 @@
+2026-11-07 11:15:03,678:ERROR - Помилка перевірки віку
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\ttt3Python\правра.py", line 15, in <module>
+    check_age(15)
+    ~~~~~~~~~^^^^
+  File "C:\Users\User\PycharmProjects\ttt3Python\правра.py", line 10, in check_age
+    assert age >= 18, "Вам має бути 18 років або більше"
+           ^^^^^^^^^
+AssertionError: Вам має бути 18 років або більше
